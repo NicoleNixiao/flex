@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>垂直居中</title>
+  <style>
+  *{
+    padding: 0;
+    margin: 0;
+  }
+  div{
+    width: 400px;
+    height: 200px;
+    background: #ccc;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* flex-wrap: wrap;
+    align-content: center; */
+  }
+  /* 当垂直居中时，如果不换行nowrap,align-items: center; 如果多行wrap,要用align-content: center; */
+  p{
+    width: 100px;
+    height: 20px;
+    background: lightpink;
+    border:2px solid lightblue;
+  }
+  </style>
+</head>
+<body>
+  <div>
+    <p class="part1">1</p>
+    <p class="part1">2</p>
+    <p class="part1">3</p>
+    <p class="part1">4</p>
+    <p class="part1">5</p>
+  </div>
+</body>
+</html>
