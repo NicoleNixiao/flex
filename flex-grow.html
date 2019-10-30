@@ -32,11 +32,11 @@ p:nth-child(2){
 .part1{
   flex-grow: 3;
 }
-/* .part1的width是100px，两个p元素的width为200px，但是div的width是400px；所以多余出了200px，grow的均值是200px/4 = 50px，所以.part1的实际width是100+50*3 = 250px */
+/* .part1的width是100px，两个p元素的width为200px，但是div的width是400px；所以多余出了200px，grow的均值是200px/5 =40px，所以.part1的实际width是100+40*3 = 220px */
 .part2{
   flex-grow: 2;
 }
-/* .part2的width是100px，两个p元素的width为200px，但是div的width是400px；所以多余出了200px，grow的均值是200px/4 = 50px，所以.part2的实际width是100+50*2 = 200px */
+/* .part2的width是100px，两个p元素的width为200px，但是div的width是400px；所以多余出了200px，grow的均值是200px/5 = 40px，所以.part2的实际width是100+40*2 = 180px */
 </style>
 <body>
   <div>
